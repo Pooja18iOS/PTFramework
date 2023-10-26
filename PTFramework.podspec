@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PTFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of PTFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This is awesome pod created by Pooja Trivedi to ease your life.'
                        DESC
 
-  s.homepage         = 'https://github.com/Devang/PTFramework'
+  s.homepage         = 'https://github.com/Pooja18iOS/PTFramework.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Devang' => 'devang@theonetechnologies.co.in' }
-  s.source           = { :git => 'https://github.com/Devang/PTFramework.git', :tag => s.version.to_s }
+  s.author           = { 'Pooja18iOS' => 'pooja.trivedi@theonetechnologies.co.in' }
+  s.source           = { :git => 'https://github.com/Pooja18iOS/PTFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'PTFramework/Classes/**/*'
-  
+  s.source_files = 'Classes/**/*.swift'
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'PTFramework' => ['PTFramework/Assets/*.png']
   # }
