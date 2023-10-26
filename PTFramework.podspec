@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PTFramework'
+  s.name             = 'PTFrameworkNew'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of PTFramework.'
+  s.summary          = 'A short description of PTFrameworkNew.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'This is awesome pod created by Pooja Trivedi to ease your life.'
                        DESC
 
-  s.homepage         = 'https://github.com/Pooja18iOS/PTFramework.git'
+  s.homepage         = 'https://github.com/Pooja18iOS/PTFrameworkNew.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Pooja18iOS' => 'pooja.trivedi@theonetechnologies.co.in' }
-  s.source           = { :git => 'https://github.com/Pooja18iOS/PTFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Pooja18iOS/PTFrameworkNew.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
