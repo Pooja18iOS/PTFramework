@@ -22,7 +22,7 @@ pod 'PTFramework'
 
 ## Author
 
-Devang, devang@theonetechnologies.co.in
+Pooja, pooja.trivedi@theonetechnologies.co.in
 
 ## License
 
