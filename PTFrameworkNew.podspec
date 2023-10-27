@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PTFrameworkNew'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of PTFrameworkNew.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
   s.swift_version = '5.0'
-  # s.resource_bundles = {
-  #   'PTFramework' => ['PTFramework/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'PTFrameworkNew' => ['PTFrameworkNew/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

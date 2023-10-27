@@ -173,7 +173,7 @@
                                                     </label>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jfg-V1-s67">
                                                         <rect key="frame" x="15" y="80" width="365" height="120"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="120" id="IVq-bJ-dui"/>
                                                         </constraints>
@@ -191,7 +191,7 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="178" height="120"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="ubr-q5-GTG">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="ubr-q5-GTG">
                                                                             <rect key="frame" x="0.0" y="0.0" width="178" height="120"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="170" id="1Sf-mR-JfY"/>
@@ -742,7 +742,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HPS-WI-beH">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1413"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="n1Y-it-4Us">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n1Y-it-4Us">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
                                                 <rect key="contentStretch" x="0.5" y="0.5" width="1" height="1"/>
                                                 <constraints>
@@ -1327,7 +1327,6 @@
     <resources>
         <image name="back" width="30" height="30"/>
         <image name="backWhite" width="64" height="64"/>
-        <image name="backgroundImage" width="1920" height="1080"/>
         <image name="camera" width="64" height="64"/>
         <image name="edit" width="64" height="64"/>
         <image name="eye" width="64" height="64"/>
