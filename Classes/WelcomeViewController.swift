@@ -7,18 +7,28 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+public func MyCustomFrameworkBundle() -> Bundle? {
+    let frameworkBundle = Bundle(for: WelcomeViewController.self)
+    return frameworkBundle
+}
 
+public class WelcomeViewController: UIViewController {
+
+    @IBOutlet weak var txtPwTextField: UITextField!
     @IBOutlet weak var welcomeLbl: UILabel!
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         self.welcomeLbl.text = "Welcome Pooja!! 🤗"
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func okBtnAction(_ sender: UIButton) {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController else {return}
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

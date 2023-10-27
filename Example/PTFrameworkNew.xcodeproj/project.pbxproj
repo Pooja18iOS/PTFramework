@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C90AC148BCFABCC832D3A0 /* PTFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTFramework.podspec; path = ../PTFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		01C90AC148BCFABCC832D3A0 /* PTFrameworkNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTFrameworkNew.podspec; path = ../PTFrameworkNew.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15D87B77604A2AB6EE00E5B8 /* Pods_PTFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226DF1652864B10962A5800 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		255D7AAAD6EF2073AB8084BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				01C90AC148BCFABCC832D3A0 /* PTFramework.podspec */,
+				01C90AC148BCFABCC832D3A0 /* PTFrameworkNew.podspec */,
 				2226DF1652864B10962A5800 /* README.md */,
 				255D7AAAD6EF2073AB8084BA /* LICENSE */,
 			);

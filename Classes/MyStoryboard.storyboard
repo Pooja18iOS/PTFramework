@@ -18,31 +18,93 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Pooja!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSr-HN-3dk">
-                                <rect key="frame" x="116.66666666666667" y="413.33333333333331" width="159.66666666666663" height="25.333333333333314"/>
+                                <rect key="frame" x="116.66666666666667" y="373.33333333333331" width="159.66666666666663" height="25.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STz-zG-Rdl">
+                                <rect key="frame" x="181.66666666666666" y="409" width="30" height="34"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ok">
+                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="okBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8as-RP-Tgk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Password to continue" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="seD-WJ-oTa">
+                                <rect key="frame" x="20" y="475" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aO8-bO-PTN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qSr-HN-3dk" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="BWw-LI-svf"/>
+                            <constraint firstItem="STz-zG-Rdl" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="6EP-Vh-4ro"/>
+                            <constraint firstItem="qSr-HN-3dk" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" constant="-40" id="BWw-LI-svf"/>
+                            <constraint firstItem="STz-zG-Rdl" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Os0-GG-FW6"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="seD-WJ-oTa" secondAttribute="trailing" constant="20" id="P1d-kz-J4N"/>
+                            <constraint firstItem="seD-WJ-oTa" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" constant="64" id="ezs-jC-kYg"/>
+                            <constraint firstItem="seD-WJ-oTa" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="hTU-e9-7iu"/>
                             <constraint firstItem="qSr-HN-3dk" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="xzd-GX-Thk"/>
+                            <constraint firstItem="seD-WJ-oTa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="yvi-0i-2aC"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Itg-D2-08c"/>
                     <connections>
+                        <outlet property="txtPwTextField" destination="seD-WJ-oTa" id="U3C-vb-Veb"/>
                         <outlet property="welcomeLbl" destination="qSr-HN-3dk" id="UVy-2M-juX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="-2"/>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="DGY-LV-2zo">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fYH-df-9pP" customClass="HomeViewController" customModule="Pods_PTFramework_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4eS-E4-ACY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fWm-Qw-azR"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gfX-Y2-XSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692.3664122137404" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lje-fr-yxu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YSt-IZ-7QL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tJJ-IU-Jeo">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="ydx-BK-s2s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2P-T6-f7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
