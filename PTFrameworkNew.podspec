@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.swift_version = '5.0'
    s.resource_bundles = {
-     'PTFrameworkNew' => ['PTFrameworkNew/Assets/*.png']
+     'PTFrameworkNew' => ['PTFrameworkNew/Assets/*.xcassets']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
